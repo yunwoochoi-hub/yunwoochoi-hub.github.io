@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>디지털시대소비자이해 강의계획서 (2026-2학기)</title>
+<style>
+  :root {
+    --ink: #1f2933; --muted: #5f6b7a; --line: #e3e7ec;
+    --accent: #2f6fde; --accent-soft: #eaf1fd; --warn-soft: #fff6e5; --warn: #b26b00;
+    --exam-soft: #fdecec; --exam: #c0392b; --present-soft: #eaf7ef; --present: #1e8449;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 16px 48px; background: #f7f8fa; color: var(--ink);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.65; font-size: 15px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  header { margin-bottom: 20px; }
+  header .term { color: var(--accent); font-weight: 700; font-size: 14px; }
+  header h1 { margin: 4px 0 6px; font-size: 28px; }
+  header p { margin: 0; color: var(--muted); }
+  section {
+    background: #fff; border: 1px solid var(--line); border-radius: 12px;
+    padding: 20px 22px; margin-bottom: 16px;
+  }
+  h2 { font-size: 18px; margin: 0 0 12px; padding-left: 10px; border-left: 4px solid var(--accent); }
+  .info { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px 20px; margin: 0; }
+  .info div { display: flex; gap: 10px; padding: 6px 0; border-bottom: 1px dashed var(--line); }
+  .info dt { color: var(--muted); min-width: 92px; flex-shrink: 0; }
+  .info dd { margin: 0; font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+  .info a { color: var(--accent); }
+  .notice { background: var(--warn-soft); border-radius: 8px; padding: 12px 14px; margin-top: 12px; }
+  .notice strong { color: var(--warn); }
+  .notice ul { margin: 6px 0 0; padding-left: 20px; }
+  .parts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; margin-top: 12px; }
+  .part { background: var(--accent-soft); border-radius: 8px; padding: 10px 12px; font-size: 14px; }
+  .part b { display: block; color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { border-bottom: 1px solid var(--line); padding: 9px 8px; text-align: left; vertical-align: top; }
+  th { background: #f1f4f8; font-weight: 700; white-space: nowrap; }
+  td.wk { white-space: nowrap; font-weight: 700; color: var(--accent); }
+  td ul { margin: 0; padding-left: 16px; }
+  tr.exam td { background: var(--exam-soft); }
+  tr.exam td.wk { color: var(--exam); }
+  tr.present td { background: var(--present-soft); }
+  tr.present td.wk { color: var(--present); }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; background: #eef1f5; color: var(--muted); margin: 1px 2px 1px 0; white-space: nowrap; }
+  .comp td:first-child { font-weight: 700; white-space: nowrap; }
+  .empty { color: var(--muted); font-style: italic; }
+  .table-scroll { overflow-x: auto; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 20px; }
+  @media (max-width: 600px) {
+    header h1 { font-size: 23px; }
+    section { padding: 16px; }
+    th, td { padding: 7px 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="term">2026-2학기 · 조선대학교 미디어커뮤니케이션학과</div>
+  <h1>디지털시대소비자이해 강의계획서</h1>
+  <p>수업 일정은 수업 진행 상황에 따라 바뀔 수 있습니다.</p>
+</header>
+
+<section>
+  <h2>기본 정보</h2>
+  <dl class="info">
+    <div><dt>교과목명</dt><dd>디지털시대소비자이해</dd></div>
+    <div><dt>교과코드 / 분반</dt><dd>38240 / 01</dd></div>
+    <div><dt>이수구분</dt><dd>전공선택</dd></div>
+    <div><dt>학점</dt><dd>3학점</dd></div>
+    <div><dt>이론/실습</dt><dd>이론 (이론중심)</dd></div>
+    <div><dt>주관학과</dt><dd>미디어커뮤니케이션학과</dd></div>
+    <div><dt>수업시간</dt><dd>월 3A~4B, 목 3A~3B</dd></div>
+    <div><dt>담당교수</dt><dd>최윤우</dd></div>
+    <div><dt>E-mail</dt><dd><a href="mailto:yunwoochoi@chosun.ac.kr">yunwoochoi@chosun.ac.kr</a></dd></div>
+    <div><dt>상담</dt><dd>이메일로 일정을 미리 조율한 뒤 진행</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>교과목 개요</h2>
+  <p>이 교과목은 광고, PR, 마케팅 분야에서 중요한 소비자 심리와 행동을 종합적으로 이해하는 것을 목적으로 합니다. 소비자의 감각, 지각, 학습, 기억, 동기, 감정 등 내적 요인부터 사회적 맥락까지 체계적으로 배우며, 특히 디지털 전환 시대의 새로운 소비 패턴과 미디어 환경 변화에 주목합니다. 이론적 기초와 실무적 적용을 균형 있게 다루어 미디어커뮤니케이션 전공자에게 꼭 필요한 소비자 이해 역량을 기릅니다. 강의, 토론, 사례 분석으로 능동적인 학습을 이끕니다.</p>
+
+  <div class="notice">
+    <strong>출결 관련 준수사항</strong>
+    <ul>
+      <li>출석인정요청서는 정당한 사유가 있을 때, 결석 후 일주일 안에 오프라인으로 낸 것만 인정합니다.</li>
+      <li>출석인정요청서는 한 사람당 3회 이상 인정되지 않습니다.</li>
+      <li>인정서로 출석 처리가 되더라도, 성적 동점자가 생기면 출석 점수에서 뒷순위가 됩니다.</li>
+      <li>결석일수가 총 수업시간의 1/4 이상이면 학칙에 따라 F 처리됩니다.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>교과목표</h2>
+  <p>소비자의 심리적·사회적 특성을 과학적으로 분석하고 이해하는 능력을 기르는 것이 주요 목표입니다. 소비자 행동의 기본 원리와 의사결정 과정을 체계적으로 배워 마케팅 커뮤니케이션 전략을 세우는 데 활용할 기본 역량을 갖춥니다. 또한 빠르게 변하는 디지털 미디어 환경에서 소비자와 브랜드 사이의 상호작용을 이해하고, 창의적 문제해결과 비판적 사고로 효과적인 소비자 커뮤니케이션 방안을 제시할 수 있는 전문가적 소양을 기릅니다.</p>
+</section>
+
+<section>
+  <h2>교과내용 (4개 부분)</h2>
+  <div class="parts">
+    <div class="part"><b>제1부</b>소비자 심리학의 기본 개념과 역사적 배경</div>
+    <div class="part"><b>제2부</b>소비자의 내적 요인: 감각과 지각, 학습과 기억, 동기와 감정, 성격과 라이프스타일, 태도, 설득 커뮤니케이션</div>
+    <div class="part"><b>제3부</b>소비자 의사결정 과정: 문제인식부터 구매 후 행동까지</div>
+    <div class="part"><b>제4부</b>사회적 맥락: 상황 요인, 집단 과정, 문화와 사회계층, 디지털 미디어 환경의 영향</div>
+  </div>
+</section>
+
+<section>
+  <h2>핵심역량과 평가 방법</h2>
+  <div class="table-scroll">
+  <table class="comp">
+    <thead><tr><th>구분</th><th>역량</th><th>수업방법</th><th>역량평가방법</th><th>성적평가방법</th></tr></thead>
+    <tbody>
+      <tr><td>주역량</td><td>창의적문제해결</td><td>강의</td><td>서술형시험</td><td>교육내용평가(고사)</td></tr>
+      <tr><td>부역량 1</td><td>정보분석활용</td><td>토의·토론</td><td>보고서(수시)</td><td>과제평가</td></tr>
+      <tr><td>부역량 2</td><td>협업능력</td><td>토의·토론</td><td>보고서(수시)</td><td>과제평가</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p style="margin:12px 0 0;">성적 평가 항목: <span class="tag">출석</span><span class="tag">참여</span><span class="tag">과제</span><span class="tag">중간고사</span><span class="tag">기말고사</span><br>
+  <span class="empty">항목별 비중은 강의계획서에 적혀 있지 않습니다.</span></p>
+</section>
+
+<section>
+  <h2>주차별 수업 계획</h2>
+  <div class="table-scroll">
+  <table>
+    <thead><tr><th>주차</th><th>주제</th><th>학습내용</th><th>수업방법</th></tr></thead>
+    <tbody>
+      <tr><td class="wk">1주</td><td>오리엔테이션</td><td>교과수업 주요목표, 평가방법, 주별 강의계획 등</td><td>강의</td></tr>
+      <tr><td class="wk">2주</td><td>&lt;제1부: 소비자 심리학 소개&gt; &lt;제2부: 소비자의 내적 요인&gt;<br>소비자 감각과 지각<br><span class="tag">팀 과제 제시 및 팀 구성</span></td><td><ul><li>소비자 심리학의 정의와 역사</li><li>소비자 심리학의 필요성</li><li>소비자 심리학 관련 학문분야</li><li>소비자의 감각 체계</li><li>노출과 주의</li><li>지각</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">3주</td><td>학습과 기억</td><td><ul><li>고전조건화, 조작조건화</li><li>인간의 기억 처리 과정</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">4주</td><td>정서와 동기</td><td><ul><li>정서와 동기의 개념</li><li>정서의 종류</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">5주</td><td>태도</td><td><ul><li>태도의 개념과 특성</li><li>태도의 구성 요소</li><li>태도와 행동의 관계</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">6주</td><td>태도</td><td><ul><li>태도와 태도 변화</li><li>광고에 대한 태도</li></ul></td><td>강의, 토론</td></tr>
+      <tr class="present"><td class="wk">7주</td><td>팀과제 발표</td><td>발표 및 피드백</td><td>발표, 토론</td></tr>
+      <tr class="exam"><td class="wk">8주</td><td>중간고사</td><td>전반부 학습내용 종합평가</td><td>시험</td></tr>
+      <tr><td class="wk">9주</td><td>구매의사 결정 1: 문제인식과 정보탐색</td><td><ul><li>소비자 구매의사결정의 유형</li><li>소비자 구매의사결정의 과정</li><li>문제 인식</li><li>정보 탐색</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">10주</td><td>소비자 행동경제학</td><td><ul><li>경제학과 심리학의 만남</li><li>직감에 의지하는 소비자</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">11주</td><td>소비자 행동경제학</td><td><ul><li>손실을 두려워하는 소비자</li><li>선호가 쉽게 바뀌는 소비자</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">12주</td><td>&lt;제4부: 소비자의 사회적 맥락&gt;<br>소비자 상황</td><td><ul><li>물리적 환경</li><li>사회적 환경</li><li>시간적 관점</li><li>규제 과정</li><li>선행 상태</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">13주</td><td>확산과 구전 커뮤니케이션</td><td><ul><li>혁신의 확산</li><li>디지털 시대 구전 커뮤니케이션</li></ul></td><td>강의, 토론</td></tr>
+      <tr><td class="wk">14주</td><td>사회적 집단과 문화, 그리고 소비</td><td><ul><li>문화의 개념과 특성</li><li>문화의 구성요소</li><li>문화의 기능과 소비문화</li><li>사회적 집단과 소비자 행동</li></ul></td><td>강의, 토론</td></tr>
+      <tr class="exam"><td class="wk">15주</td><td>기말고사</td><td>후반부 학습내용 종합평가</td><td>시험</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>교재</h2>
+  <p style="margin:0;"><b>주교재</b>: 『소비자심리학』 (김재휘, 이병관 등 공저), 학지사</p>
+</section>
+
+<footer>디지털시대소비자이해 · 2026-2학기 강의계획서</footer>
+</div>
+</body>
+</html>
